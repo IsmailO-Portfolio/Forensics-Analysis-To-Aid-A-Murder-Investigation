@@ -19,36 +19,43 @@ The investigation relies solely on digital evidence such as access logs, call re
 
 The following datasets were analyzed during the investigation:
 
-- vault_access_logs
-Records of individuals who accessed the Vault Room with timestamps.
+- vault_access_logs:
+  
+  Records of individuals who accessed the Vault Room with timestamps.
 
 - call_records
-Phone call logs including caller, receiver, start time, and duration.
+  
+  Phone call logs including caller, receiver, start time, and duration.
 
 - motion_sensor_logs
-Movement detection records in the vault hallway.
+  
+  Movement detection records in the vault hallway.
 
 - security_logs
-Logs indicating when the security feed was disabled.
+  
+  Logs indicating when the security feed was disabled.
 
 - emergency_calls
-Timestamped emergency call data following the incident.
+  
+  Timestamped emergency call data following the incident.
 
 ## ⏱️ Reconstructed Timeline
 
 A precise timeline was created by correlating all datasets:
 
-- Time	     |  Event
-7:55:45 PM	    Call between Roland Greene and Victor Hale
-7:56:39 PM	    Call between Roland Greene and Susan Knight
-7:56:35 PM	    Robin Ahmed accessed Vault Room
-7:57 PM	        Victim last seen alive
-8:00 PM	        Gunshot heard
-8:00:55 PM	    Jamie Bennett accessed Vault Room
-8:01:15 PM	    Motion detected in hallway
-8:03 PM	        Security feed cut
-8:04:53 PM	    Victor Shaw accessed Vault Room
-8:05:45 PM	    Emergency call placed
+| Time       | Event |
+|------------|-------|
+| 7:55:45 PM | Call between Roland Greene and Victor Hale |
+| 7:56:39 PM | Call between Roland Greene and Susan Knight |
+| 7:56:35 PM | Robin Ahmed accessed Vault Room |
+| 7:57 PM    | Victim last seen alive |
+| 8:00 PM    | Gunshot heard |
+| 8:00:55 PM | Jamie Bennett accessed Vault Room |
+| 8:01:15 PM | Motion detected in hallway |
+| 8:03 PM    | Security feed cut |
+| 8:04:53 PM | Victor Shaw accessed Vault Room |
+| 8:05:45 PM | Emergency call placed |
+
 
 ## 🔍 Analysis Process
 
@@ -82,3 +89,47 @@ Security logs were reviewed to identify abnormal behavior.
 Result:
 - The security feed was disabled after the gunshot.
 - Victor Shaw accessed the vault after the feed was cut, indicating possible evidence tampering.
+
+### 🕵️ Suspect Analysis
+
+#### Robin Ahmed
+- Claim: Left early
+- Evidence: Vault access at 7:56:35 PM
+  
+Conclusion: False alibi, possible accomplice
+
+#### Jamie Bennett
+- Claim: At home
+- Evidence: Vault access at 8:00:55 PM
+  
+Conclusion: Unreliable witness, not the killer
+
+#### Victor Shaw
+- Claim: At the hospital
+- Evidence: Vault access at 8:04:53 PM after security feed disruption
+  
+Conclusion: Strong motive, false alibi, primary suspect
+
+
+## ✅ Final Verdict
+
+Based on timeline alignment, access patterns, call verification, and security interference:
+
+Victor Shaw is identified as the murderer of Roland Greene.
+
+Robin Ahmed is classified as a possible accomplice, while Jamie Bennett is considered a witness.
+
+
+## 🛠️ Skills Demonstrated
+
+- SQL querying and filtering
+- Time-based data analysis
+- Digital forensics methodology
+- Logical reasoning and deduction
+- Data-driven investigation
+
+
+
+
+
+
