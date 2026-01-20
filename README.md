@@ -38,7 +38,7 @@ Timestamped emergency call data following the incident.
 
 A precise timeline was created by correlating all datasets:
 
-- Time	          Event
+- Time	     |  Event
 7:55:45 PM	    Call between Roland Greene and Victor Hale
 7:56:39 PM	    Call between Roland Greene and Susan Knight
 7:56:35 PM	    Robin Ahmed accessed Vault Room
@@ -56,7 +56,8 @@ A precise timeline was created by correlating all datasets:
 
 Vault access logs were filtered to include only entries between 7:55 PM and 8:05 PM.
 
-Result: 
+Result:
+
 Only three individuals accessed the vault during the critical time window.
 
 ### 2. Alibi Verification Using Call Records
@@ -81,7 +82,3 @@ Security logs were reviewed to identify abnormal behavior.
 Result:
 - The security feed was disabled after the gunshot.
 - Victor Shaw accessed the vault after the feed was cut, indicating possible evidence tampering.
-
-The security feed was disabled after the gunshot.
-
-Victor Shaw accessed the vault after the feed was cut, indicating possible evidence tampering.
